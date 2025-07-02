@@ -1,0 +1,4117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sdf version="1.6">
+  <model name="led_panel">
+    <static>true</static>
+    <link name="panel_link">
+      <pose>0 0 1 0 0 -1.57</pose>
+      <visual name="panel_base">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_panel</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+      </visual>
+      <visual name="led_0_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_0_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_0_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_1_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_1_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_2_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_2_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_3_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_3_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_4_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_4_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_5_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_5_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_6_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_6_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_7_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_7_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_8_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_8_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_9_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_9_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_10_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_10_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_11_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_11_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_12_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_12_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_13_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_13_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_14_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_14_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_0">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_0</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_1">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_1</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_2">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_2</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_3">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_3</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_4">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_4</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_5">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_5</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_6">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_6</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_7">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_7</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_8">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_8</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_9">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_9</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_10">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_10</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_11">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_11</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_12">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_12</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_13">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_13</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_14">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_14</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+      <visual name="led_15_15">
+        <geometry>
+          <mesh>
+            <uri>model://led_panel/meshes/led_panel.dae</uri>
+            <scale>0.1 0.1 0.1</scale>
+            <submesh>
+              <name>led_15_15</name>
+              <center>false</center>
+            </submesh>
+          </mesh>
+        </geometry>
+        <material>
+          <emissive>0.01 0.01 0.01 1.0</emissive>
+          <diffuse>0.01 0.01 0.01 1.0</diffuse>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
